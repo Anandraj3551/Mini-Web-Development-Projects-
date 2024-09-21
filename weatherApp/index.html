@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app !! Created By Anand</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Import Google Material Icons for UI elements like search and location icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <!-- Main container for the app -->
+    <main class="main-container">
+      <!-- Header with city search input and search button -->
+      <header class="input-container">
+        <input class="city-input" placeholder="Search City" type="text" />
+        <button class="search-btn">
+          <span class="material-symbols-outlined"> search </span>
+        </button>
+      </header>
+
+      <!-- Weather information section (hidden by default) -->
+      <section class="weather-info" style="display: none">
+        <!-- City and date information -->
+        <div class="location-date-container">
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4 class="country-txt">India</h4>
+            <!-- City name placeholder -->
+          </div>
+          <h5 class="current-date-text regular-txt">Sat, 07 sep</h5>
+          <!-- Date placeholder -->
+        </div>
+
+        <!-- Weather summary (icon, temperature, condition) -->
+        <div class="weather-summary-container">
+          <img src="assets/weather/clouds.svg" class="weather-summary-img" />
+          <div class="weather-summary-info">
+            <h1 class="temp-txt">29 °C</h1>
+            <!-- Temperature placeholder -->
+            <h3 class="condition-txt regular-txt">Clouds</h3>
+            <!-- Weather condition placeholder -->
+          </div>
+        </div>
+
+        <!-- Weather conditions (humidity and wind speed) -->
+        <div class="weather-conditions-container">
+          <div class="condition-item">
+            <span class="material-symbols-outlined"> water_drop </span>
+            <div class="condition-info">
+              <h5 class="regular-txt">Humidity</h5>
+              <h5 class="humidity-value-txt">55%</h5>
+              <!-- Humidity placeholder -->
+            </div>
+          </div>
+
+          <div class="condition-item">
+            <span class="material-symbols-outlined"> air </span>
+            <div class="condition-info">
+              <h5 class="regular-txt">Wind speed</h5>
+              <h5 class="wind-value-txt">2 m/s</h5>
+              <!-- Wind speed placeholder -->
+            </div>
+          </div>
+        </div>
+
+        <!-- 5-day forecast section -->
+        <div class="forecast-item-container">
+          <!-- Placeholder for individual forecast items -->
+          <div class="forecast-item">
+            <h5 class="forecast-item-date regular-txt">05 sep</h5>
+            <img
+              class="forecast-item-img"
+              src="assets/weather/thunderstorm.svg"
+            />
+            <h5 class="forecast-item-temp">29 °C</h5>
+            <!-- Forecast temperature placeholder -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Section to display when no city has been searched yet -->
+      <section class="search-city section-message">
+        <img src="assets/message/search-city.png" alt="" />
+        <div>
+          <h1>Search City</h1>
+          <h4 class="regular-txt">
+            Find out The Weather Condition Of The City
+          </h4>
+        </div>
+      </section>
+
+      <!-- Section to display when the city is not found (hidden by default) -->
+      <section class="not-found section-message" style="display: none">
+        <img src="assets/message/not-found.png" alt="" />
+        <div>
+          <h1>City Not Found</h1>
+          <h4 class="regular-txt">
+            We couldn't find the weather for that city. Please try again.
+          </h4>
+        </div>
+      </section>
+    </main>
+
+    <!-- JavaScript file for handling weather data -->
+    <script src="script.js"></script>
+  </body>
+</html>

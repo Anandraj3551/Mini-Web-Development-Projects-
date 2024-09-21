@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <h1>Password Generator</h1>
+      <div class="display-container">
+        <input
+          readonly
+          placeholder="password"
+          class="display"
+          data-passwordDisplay
+        />
+        <button class="copyBtn" data-copy>
+          <span class="tooltip" data-copyMsg></span>
+          <img src="copy.svg" alt="Copy" width="15" height="15" />
+        </button>
+      </div>
+
+      <div class="input-container">
+        <!-- password Length -->
+        <div class="length-container">
+          <p>Password Length</p>
+          <p data-lengthNumber>0</p>
+        </div>
+        <!------slider-->
+        <input
+          type="range"
+          min="1"
+          max="20"
+          class="slider"
+          step="1"
+          data-lengthSlider
+        />
+
+        <!-----CheckBox-->
+        <div class="check">
+          <input type="checkbox" id="uppercase" />
+          <label for="uppercase"> incude uppercase letters </label>
+        </div>
+
+        <div class="check">
+          <input type="checkbox" id="lowercase" />
+          <label for="lowercase"> incude lowercase letters </label>
+        </div>
+
+        <div class="check">
+          <input type="checkbox" id="numbers" />
+          <label for="numbers"> incude Numbers </label>
+        </div>
+
+        <div class="check">
+          <input type="checkbox" id="symbols" />
+          <label for="symbols"> incude Symbols </label>
+        </div>
+
+        <!--------strength-->
+        <div class="strength-container">
+          <p>Strength</p>
+          <div class="indicator" data-indicator></div>
+        </div>
+
+        <button class="generateButton">Generate password</button>
+        <!-----Container end-->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
