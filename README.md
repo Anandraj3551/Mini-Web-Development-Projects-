@@ -59,7 +59,7 @@ This repository is a showcase of small but meaningful web development projects. 
 
 ## 📂 **Project Directory**
 
-| Project Name              | Description                                              | Live Demo (if available) |
+| Project Name              | Description                                              | Live Demo (available soon) |
 |---------------------------|----------------------------------------------------------|--------------------------|
 | **BMI Calculator**        | Calculate Body Mass Index with an intuitive interface.   | [Live Demo](#)           |
 | **Calculator**            | A basic calculator with arithmetic operations.           | [Live Demo](#)           |
