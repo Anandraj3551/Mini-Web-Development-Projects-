@@ -59,12 +59,19 @@ This repository is a showcase of small but meaningful web development projects. 
 
 ## 📂 **Project Directory**
 
-| Project Name         | Description                                     | Live Demo (if available) |
-|-----------------------|-------------------------------------------------|--------------------------|
-| **Password Generator**| Generate secure passwords with customizable options. | [Live Demo](#)           |
-| **Weather App**       | Fetch weather updates using API integration.    | [Live Demo](#)           |
-| **Rock, Paper, Scissors** | Interactive game with a winning hand highlight. | [Live Demo](#)           |
-| **Responsive Navbar** | A sleek and responsive navigation bar.          | [Live Demo](#)           |
-| **Dynamic Forms**     | Form with real-time validation feedback.        | [Live Demo](#)           |
+| Project Name              | Description                                              | Live Demo (if available) |
+|---------------------------|----------------------------------------------------------|--------------------------|
+| **BMI Calculator**        | Calculate Body Mass Index with an intuitive interface.   | [Live Demo](#)           |
+| **Calculator**            | A basic calculator with arithmetic operations.           | [Live Demo](#)           |
+| **Dev Detective**         | Discover GitHub profiles with detailed insights.         | [Live Demo](#)           |
+| **Fruit Product Card**    | Interactive product card featuring fresh fruit items.    | [Live Demo](#)           |
+| **Futuristic Shoe Card**  | A modern product card with hover effects and transitions.| [Live Demo](#)           |
+| **Increment and Decrement** | Adjust counters dynamically with interactive buttons.  | [Live Demo](#)           |
+| **Measurement Configurator** | Drag and configure measurements with visual feedback.| [Live Demo](#)           |
+| **Open Modal**            | Simple modal popup with smooth transitions.              | [Live Demo](#)           |
+| **Password Generator**    | Generate secure passwords with customizable options.     | [Live Demo](#)           |
+| **Sifnil Signup**         | A sleek sign-up form with animations.                    | [Live Demo](#)           |
+| **Login Form Animated**   | Animated login form with smooth user interactions.       | [Live Demo](#)           |
+| **Tic Tac Toe Game**      | Classic Tic Tac Toe game with animations and logic.      | [Live Demo](#)           |
+| **Weather App**           | Fetch weather updates using API integration.             | [Live Demo](#)           |
 
----
